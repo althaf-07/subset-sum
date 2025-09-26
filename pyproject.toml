@@ -1,0 +1,21 @@
+[project]
+name = "subset-sum"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Althaf Muhammad", email = "zoory9900@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "scipy>=1.16.2",
+]
+
+[project.scripts]
+subset-sum = "subset_sum:main"
+
+[build-system]
+requires = ["uv_build>=0.8.17,<0.9.0"]
+build-backend = "uv_build"
